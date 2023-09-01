@@ -1,0 +1,8 @@
+def sortedArray(a:[int], b:[int]):
+    # Create a set to store unique elements from both arrays
+    set1 = set(a)
+    set2 = set(b)
+    
+    result = list(set1.union(set2))
+    return result
+   
