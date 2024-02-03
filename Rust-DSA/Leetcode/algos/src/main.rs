@@ -1,40 +1,25 @@
-fn find_missing_element(arr: &[i32]) -> i32 {
-    // Calculate the sum of all elements in the array
-    let actual_sum : i32 = arr.iter().sum();
-
-    // Calculate the expected sum of all elements in the sequence
-    let n = arr.len() as i32;
-    let expected_sum = (n * (n + 1)) / 2;
-     
-    // The difference between the two sums is the missing element
-    expected_sum - actual_sum
-}
-
+// Import necessary libraries
+use sui_sdk::crypto::Keypair;
+use sui_sdk::crypto::ed25519::Ed25519Keypair;
+use blake2::digest::{Digest, BLAKE2b};
+use bs58::encode;
 fn main() {
-    let array = [1,2,3,5,6,7,8];
-    let missing = find_missing_element(&array);
-    let duplicate = find_duplicate(&array);
-    println!("Duplicate: {}", duplicate); 
-    println!("Missing: {}", missing);  // prints "Missing: 3"
+// Generate a keypair using Ed25519 algorithm
+let keypair: Ed25519Keypair = Ed25519Keypair::generate();
+let public_key = keypair.get_public_key();
+
+// Concatenate signature scheme flag (0x00 for Ed25519) with public key bytes
+let mut data: Vec<u8> = Vec::with_capacity(1 + public_key.as_ref().len());
+data.push(0x00); // Signature scheme flag for Ed25519
+data.extend_from_slice(public_key.as_ref());
+
+// Hash the data using BLAKE2b
+let mut hasher = BLAKE2b::new();
+hasher.update(&data);
+let hash = hasher.finalize();
+
+// Encode the hash into base58 string
+let address = encode(&hash);
+
+println!("Address: {}", address);"
 }
-
-use std::collections::HashMap;
-
-fn find_duplicate(arr: &[i32]) -> i32 {
-    let mut map = HashMap::new();
-
-    for i in arr {
-        let count = map.entry(i).or_insert(0);
-        *count += 1;
-    }
-
-    for (i, count) in map {
-        if count > 1 {
-            return *i;
-        }
-    }
-
-    // Return -1 if no duplicate is found
-    -1
-}
-
