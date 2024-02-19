@@ -65,7 +65,9 @@ h.insert(red, 20);
 println!("{:?}", h);
 
 
-
+let a = 10;
+let b = a;
+println!("{:?}", a);
 
 }
 
