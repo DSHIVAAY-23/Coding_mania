@@ -10,8 +10,6 @@ void printBinary(int num){
 }
 
 
-
-
  int main() {
     for(int i =0;i<9;++i) { printBinary(i);
     if(i&1){

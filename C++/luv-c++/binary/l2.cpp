@@ -10,37 +10,29 @@ void printBinary(int num){
 }
 
 
-
+// (1<<i) ------->>. gives the 2*i i.e set bit on pirticular place
 
  int main() {
     
-printBinary(9);
-int a = 9;
-
-int *p = &a;
-// int *j = &p;
-cout<<*p<<endl;
-// cout<<j<<endl;
-
-printBinary(a);
-int i =2;
-if((a&(1<<i))!= 0){
-    cout<<"yes"<<endl;
-}
-else{
-    cout<<"no"<<endl;
-}
-//bit set
-printBinary(a|(1<<2));
+ printBinary(9);
+ int a = 9;
 
 
-//inverse
-printBinary(a&(~(1<<3)));
-//bit unset
-printBinary(~(1<<3));
+// to invert all the bits
+int num = pow(2,ceil(log2( a)))-1;
 
-//toggle
-printBinary(1^(1<<2));
+printBinary(num^a);
+//bit set == ith bit set
+// printBinary(a|(1<<2));
+
+
+// //inverse
+// printBinary(a&(~(1<<3)));
+// //bit unset
+// printBinary(~(1<<3));
+
+// //toggle
+// printBinary(1^(1<<2));
 
 int count = 0;
 for(int i =10;i>=0;--i){
@@ -50,7 +42,7 @@ for(int i =10;i>=0;--i){
 }
 cout<<count<<endl;
 
-cout<<__builtin_popcount(a)<<endl;
+// cout<<__builtin_popcount(a)<<endl;
 
 
 }
