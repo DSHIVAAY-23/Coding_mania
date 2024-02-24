@@ -10,9 +10,10 @@ void printBinary(int num){
     cout<<endl;
 }
 int main(){
-    int n = 5;
+    int n = 9;
     printBinary(n);
-    // printBinary(~n);
+    printBinary(n&(1<<3));
+    printBinary(~n);
     printBinary(n&(~(1<<3)));
 
 

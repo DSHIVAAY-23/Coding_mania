@@ -22,17 +22,17 @@ void printBinary(int num){
 int num = pow(2,ceil(log2( a)))-1;
 
 printBinary(num^a);
-//bit set == ith bit set
-// printBinary(a|(1<<2));
+// bit set == ith bit set
+printBinary(a|(1<<2));
 
 
-// //inverse
-// printBinary(a&(~(1<<3)));
-// //bit unset
-// printBinary(~(1<<3));
+//inverse
+printBinary(a&(~(1<<3)));
+//bit unset
+printBinary(~(1<<3));
 
-// //toggle
-// printBinary(1^(1<<2));
+//toggle
+printBinary(1^(1<<2));
 
 int count = 0;
 for(int i =10;i>=0;--i){
