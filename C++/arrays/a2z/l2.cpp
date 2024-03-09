@@ -17,7 +17,7 @@ int largest(int arr[], int n){
             
 		}
 		
-		else if(arr[i]>smax && arr[i] != max){
+		 if(arr[i]>smax && arr[i] != max){
             smax = arr[i];
         }
 	
@@ -32,3 +32,4 @@ int main() {
     cout<<sl<<endl;
 	
 }
+
