@@ -27,7 +27,8 @@ class male : public Human{
 int main (){
     male object1;
     object1.name = "d";
-    cout << object1.name << endl;
+    cout << object1.name << endl;    int *arr;
+
     
 
 
