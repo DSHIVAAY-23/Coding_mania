@@ -3,12 +3,16 @@ pragma solidity 0.8.20;
 
 
 contract Pratice{
+    //state variables
     uint price;
     string name;
+    //public variables
     uint public discount = 2000;
+    //array declarations
     uint [4] public array =  [2,3,4,5];
     bytes public b1 ="21";
     uint public count;
+    // mapping
     mapping(uint=>string) public roll_no;
      
     struct Student{
@@ -16,7 +20,7 @@ contract Pratice{
     string name;
 }
 mapping (uint=>Student) public data;
-
+//constructor declarations
     constructor()
 {
     name = "lenevo";
