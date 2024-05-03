@@ -61,7 +61,7 @@ int main (){
     st.push(2);
     st.push(3);
 
-    st.pop();
+     st.pop();
     
 
     cout<<st.peek()<<endl;
