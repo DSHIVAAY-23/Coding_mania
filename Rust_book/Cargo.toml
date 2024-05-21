@@ -3,4 +3,14 @@
 members = [
     
     "box_smartpointers"
-]
+, "smartpointers_deref"]
+workspace = { members = ["refrences"] }
+
+[package]
+name = "ownership"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
