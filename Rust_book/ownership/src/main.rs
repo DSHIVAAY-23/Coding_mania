@@ -7,7 +7,7 @@ let x = 4;
 let y = x;
 println!("The value of x is: {x}");
 let mut s1 = String::from("buchiya");
-let s2 = &s1;
+let s2 = s1.clone();
 println!("The value of s1 is: {s1}");
 //functions
 

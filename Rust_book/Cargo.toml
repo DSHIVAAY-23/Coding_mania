@@ -2,6 +2,7 @@
 
 members = [
     
+    "basic",
     "box_smartpointers"
 , "smartpointers_deref"]
 workspace = { members = ["refrences"] }

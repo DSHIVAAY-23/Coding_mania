@@ -1,0 +1,1 @@
+/data/Coding_mania/Rust_book/target/release/ownership: /data/Coding_mania/Rust_book/src/ert.rs /data/Coding_mania/Rust_book/src/lib.rs /data/Coding_mania/Rust_book/src/main.rs /data/Coding_mania/Rust_book/src/string.rs /data/Coding_mania/Rust_book/src/vec.rs
