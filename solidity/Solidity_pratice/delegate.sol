@@ -9,7 +9,7 @@ contract B {
     uint256 public value;
 
     function setVars(uint256 _num) public payable {
-        num = _num;gate
+        num = _num;
         sender = msg.sender;
         value = msg.value;
     }

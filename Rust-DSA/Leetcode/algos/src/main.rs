@@ -22,4 +22,5 @@ let hash = hasher.finalize();
 let address = encode(&hash);
 
 println!("Address: {}", address);"
+  
 }
