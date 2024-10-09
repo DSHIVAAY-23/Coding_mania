@@ -22,6 +22,20 @@ pub trait Summary{
     fn summarize(&self)->String;
 }
 
+//trait as argument
+// pub fn demon(item:&impl Summary) {
+//     println!("{}",item.summarize());
+// }
+
+// updated syntax of trait bound
+pub fn demon<T:Summary>(item:&T){
+println!("{}",item.summarize());
+}
+//more complex example
+pub fn dedu<T:Display + Clone,U:Clone +Debug>(item1:&T,item2:&U){
+    println!("{:?},{:?}",item1.clone(),item2.clone());
+}
+
 fn main(){
 let news = Newspaper{
     author:String::from("John Doe"),
@@ -37,4 +51,5 @@ let tweet = Tweet{
 
 println!("{}",news.summarize());
 println!("{}",tweet.summarize());
+demon(&news);
 }

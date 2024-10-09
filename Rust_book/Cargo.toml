@@ -1,7 +1,7 @@
 [workspace]
 
 members = [
-    
+    "iterators",
     "basic",
     "box_smartpointers"
 , "smartpointers_deref"]

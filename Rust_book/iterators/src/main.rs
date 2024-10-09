@@ -8,7 +8,9 @@ pub trait Iterator{
 fn main(){
   let x = vec![1,2,3];
   let  v1_iter= x.iter();
+
   let total:i32 = v1_iter.clone().sum();
+  println!("Sum: {}", total);
   assert_eq!(total,6 );
 
   println!("Got:{}",total);
