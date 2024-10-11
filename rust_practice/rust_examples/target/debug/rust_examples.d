@@ -1,1 +1,0 @@
-/data/Coding_mania/rust_practice/rust_examples/target/debug/rust_examples: /data/Coding_mania/rust_practice/rust_examples/src/ert.rs /data/Coding_mania/rust_practice/rust_examples/src/lib.rs /data/Coding_mania/rust_practice/rust_examples/src/main.rs /data/Coding_mania/rust_practice/rust_examples/src/string.rs /data/Coding_mania/rust_practice/rust_examples/src/vec.rs
