@@ -9,6 +9,12 @@ impl Rectangle {
         self.width * self.height
     }
 }
+impl Rectangle{
+    fn perimeter(&self) ->u32{
+
+        2*(self.width+self.height)
+    }
+}
 
 fn main() {
     let rect1 = Rectangle {
@@ -19,5 +25,9 @@ fn main() {
     println!(
         "The area of the rectangle is {} square pixels.",
         rect1.area()
+    );
+    println!(
+        "The perimeter of the rectangle is {} square pixels.",
+        rect1.perimeter()
     );
 }

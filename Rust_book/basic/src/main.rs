@@ -1,17 +1,19 @@
 use std::io;
 
 fn main() {
-  let mut number = String::new();
 
-  io::stdin().read_line(&mut number).expect("msg is not");
     // let  x= 5;
     // let x = String::from("hello world");
     //    println!("The value of x is: {x}");
-  let   a = 4;
-    println!("The value of a is: {a}");
-    let mut  s = "hello";
-     s="radu";
-     println!("The s is: {s}");
+  // let   a = 4;
+  //   println!("The value of a is: {a}");
+  //   let mut  s = "hello";
+  //    s="radu";
+  //    println!("The s is: {s}");
+     let tup = ("hello",5);
+     let (greet,money) = tup;
+
+      println!("first greet {}",tup.0);
 
     println!("Hello, world!");
     let sum = my_function(3,4);

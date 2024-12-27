@@ -8,7 +8,7 @@ fn main() {
     // let z = &mut x;
     // let d = &mut x;
     println!("{}", y); 
-
+let s3 = "D fun";
 
 
     let mut s1 = String::from("hello");
@@ -22,6 +22,13 @@ fn main() {
     println!("The length of '{}' is {}.", s1, len);
 }
 
-fn calculate_length(s: &String) -> usize {
-    s.len()
+fn calculate_length(s: &str) -> &str {
+    let bytes = s.as_bytes();
+    for (i,&item) in bytes.iter().enumerate(){
+        if item == b' '{
+            return &s[0..i];
+        }
+
+    }
+     &s[..]
 }

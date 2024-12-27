@@ -5,10 +5,19 @@ fn main() {
     v1.push(2);
     println!("vector 1: {:?}", v1);
 
-    let v2: Vec<i32> = vec![1, 2, 3,4,4];
+    match v1.get(3){
+        Some(third)=>println!("third{}",third),
+        None=>println!("none found"),
+    }
+
+    let mut v2: Vec<i32> = vec![1, 2, 3,4,4];
     println!("vector 2: {:?}", v2);  // Use {:?} to print a vector
-    let third = &v2[3];
-    // println!("third: {}", third);
+    let third = &v2[3]; 
+
+     println!("third: {}", third);
+      
+     v2.push(6);
+
     match v2.get(20){
         Some(third) => println!("third: {}", third),
         None => println!("none found"),

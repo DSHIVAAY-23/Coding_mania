@@ -1,46 +1,52 @@
-use std::ops::Deref;
+use std::rc::Rc;
+use std::thread;
+use std::sync::Arc;
+use std::cell::RefCell;
 
-struct MyBoX<T>(T);
 
-impl <T> MyBoX<T> {
-    fn new(x: T) -> MyBoX<T> {
-        MyBoX(x)
-    }
-    
+struct Person {
+    name: String,
+    age: u32,
 }
-impl <T> Deref for MyBoX<T> {
-
-    type Target = T;
-    fn deref(&self) -> &T {
-        &self.0
-    }
-    
-}
-
-
-
-
 
 fn main() {
-let x = 5;
-let y = &x;
-let z = Box::new(x);
-let a = MyBoX::new(x);
 
-assert_eq!(5,*(y.deref()));
-assert_eq!(5,x);
-assert_eq!(5,*y);
-assert_eq!(5,*z);
-assert_eq!(5,*a);
+    // for Rc  
 
-    println!("Hello, world!");
+    /* let person1 = Rc::new(Person {
+        name: "Alice".to_string(),
+        age: 25,
+    });*/
+let  cave = Arc::new(Person {
+        name: "Alice".to_string(),
+        age: 25,
+    });
+let r1 = cave.clone();
+ let r2 = cave.clone();
+  
+ println!("the rc count is : {}",Arc::strong_count(&cave));
 
-let y = MyBoX::new(String::from("Hello, world!"));
-hello(&y);
+    let thread1 = thread::spawn(move || {
+        println!("Thread 1: Name={}, Age={}", r1.name, r1.age);
+        // Simulate some work being done in thread 1
+        thread::sleep_ms(1000);
+    });
 
+    let thread2 = thread::spawn(move || {
+        println!("Thread 2: Name={}, Age={}", r2.name,r2.age);
+        // Simulate some work being done in thread 2
+        thread::sleep_ms(1000);
+    });
 
-}
+    thread1.join().unwrap();
+    thread2.join().unwrap();
 
-fn hello(x:&str) {
-    println!("Hello, {}",x);
+    println!("Reference Count: {}", Arc::strong_count(&cave));
+    
+    let head = RefCell::new(32);
+    *head.borrow_mut() += 1;
+     println!("{}", *head.borrow());
+
+    
+    
 }
