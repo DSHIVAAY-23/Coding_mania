@@ -1,7 +1,0 @@
-/data/Coding_mania/Rust_webprojects_book/catdex/target/debug/deps/libform_urlencoded-623362bff33aaa43.rmeta: /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/form_urlencoded-1.2.1/src/lib.rs
-
-/data/Coding_mania/Rust_webprojects_book/catdex/target/debug/deps/libform_urlencoded-623362bff33aaa43.rlib: /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/form_urlencoded-1.2.1/src/lib.rs
-
-/data/Coding_mania/Rust_webprojects_book/catdex/target/debug/deps/form_urlencoded-623362bff33aaa43.d: /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/form_urlencoded-1.2.1/src/lib.rs
-
-/home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/form_urlencoded-1.2.1/src/lib.rs:
