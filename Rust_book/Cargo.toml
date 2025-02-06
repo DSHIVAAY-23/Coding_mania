@@ -4,7 +4,7 @@ members = [
     "iterators",
     "basic",
     "box_smartpointers"
-, "smartpointers_deref"]
+, "smartpointers_deref", "enums", "error", "concurrency"]
 workspace = { members = ["refrences"] }
 
 [package]

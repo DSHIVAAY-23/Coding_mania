@@ -1,3 +1,5 @@
+mod models;
+use self::models::*
 use actix_files::{Files, NamedFile};
 use actix_web::{web, App, HttpServer, Result};
 async fn index() -> Result<NamedFile> {
