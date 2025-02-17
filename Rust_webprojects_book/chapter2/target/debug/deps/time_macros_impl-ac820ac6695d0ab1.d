@@ -1,0 +1,11 @@
+/data/Coding_mania/Rust_webprojects_book/chapter2/target/debug/deps/libtime_macros_impl-ac820ac6695d0ab1.so: /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/time-macros-impl-0.1.2/src/lib.rs /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/time-macros-impl-0.1.2/src/date.rs /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/time-macros-impl-0.1.2/src/ext.rs /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/time-macros-impl-0.1.2/src/offset.rs /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/time-macros-impl-0.1.2/src/time.rs /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/time-macros-impl-0.1.2/src/time_crate/mod.rs /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/time-macros-impl-0.1.2/src/time_crate/date.rs
+
+/data/Coding_mania/Rust_webprojects_book/chapter2/target/debug/deps/time_macros_impl-ac820ac6695d0ab1.d: /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/time-macros-impl-0.1.2/src/lib.rs /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/time-macros-impl-0.1.2/src/date.rs /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/time-macros-impl-0.1.2/src/ext.rs /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/time-macros-impl-0.1.2/src/offset.rs /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/time-macros-impl-0.1.2/src/time.rs /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/time-macros-impl-0.1.2/src/time_crate/mod.rs /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/time-macros-impl-0.1.2/src/time_crate/date.rs
+
+/home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/time-macros-impl-0.1.2/src/lib.rs:
+/home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/time-macros-impl-0.1.2/src/date.rs:
+/home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/time-macros-impl-0.1.2/src/ext.rs:
+/home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/time-macros-impl-0.1.2/src/offset.rs:
+/home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/time-macros-impl-0.1.2/src/time.rs:
+/home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/time-macros-impl-0.1.2/src/time_crate/mod.rs:
+/home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/time-macros-impl-0.1.2/src/time_crate/date.rs:
