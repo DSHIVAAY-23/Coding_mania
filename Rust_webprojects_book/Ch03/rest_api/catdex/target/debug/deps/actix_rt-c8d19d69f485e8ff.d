@@ -1,0 +1,11 @@
+/data/Coding_mania/Rust_webprojects_book/Ch03/rest_api/catdex/target/debug/deps/libactix_rt-c8d19d69f485e8ff.rmeta: /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-rt-1.1.1/src/lib.rs /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-rt-1.1.1/src/arbiter.rs /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-rt-1.1.1/src/builder.rs /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-rt-1.1.1/src/runtime.rs /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-rt-1.1.1/src/system.rs
+
+/data/Coding_mania/Rust_webprojects_book/Ch03/rest_api/catdex/target/debug/deps/libactix_rt-c8d19d69f485e8ff.rlib: /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-rt-1.1.1/src/lib.rs /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-rt-1.1.1/src/arbiter.rs /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-rt-1.1.1/src/builder.rs /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-rt-1.1.1/src/runtime.rs /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-rt-1.1.1/src/system.rs
+
+/data/Coding_mania/Rust_webprojects_book/Ch03/rest_api/catdex/target/debug/deps/actix_rt-c8d19d69f485e8ff.d: /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-rt-1.1.1/src/lib.rs /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-rt-1.1.1/src/arbiter.rs /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-rt-1.1.1/src/builder.rs /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-rt-1.1.1/src/runtime.rs /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-rt-1.1.1/src/system.rs
+
+/home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-rt-1.1.1/src/lib.rs:
+/home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-rt-1.1.1/src/arbiter.rs:
+/home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-rt-1.1.1/src/builder.rs:
+/home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-rt-1.1.1/src/runtime.rs:
+/home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/actix-rt-1.1.1/src/system.rs:

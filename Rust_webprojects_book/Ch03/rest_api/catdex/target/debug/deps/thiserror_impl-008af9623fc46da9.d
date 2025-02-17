@@ -1,0 +1,11 @@
+/data/Coding_mania/Rust_webprojects_book/Ch03/rest_api/catdex/target/debug/deps/libthiserror_impl-008af9623fc46da9.so: /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.20/src/lib.rs /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.20/src/ast.rs /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.20/src/attr.rs /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.20/src/expand.rs /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.20/src/fmt.rs /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.20/src/prop.rs /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.20/src/valid.rs
+
+/data/Coding_mania/Rust_webprojects_book/Ch03/rest_api/catdex/target/debug/deps/thiserror_impl-008af9623fc46da9.d: /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.20/src/lib.rs /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.20/src/ast.rs /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.20/src/attr.rs /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.20/src/expand.rs /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.20/src/fmt.rs /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.20/src/prop.rs /home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.20/src/valid.rs
+
+/home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.20/src/lib.rs:
+/home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.20/src/ast.rs:
+/home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.20/src/attr.rs:
+/home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.20/src/expand.rs:
+/home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.20/src/fmt.rs:
+/home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.20/src/prop.rs:
+/home/user/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.20/src/valid.rs:
