@@ -1,0 +1,5 @@
+Important notes
+To share states between
+threads, you can use the web::Data provided by Actix. The shared state wrapped inside web::Data must be shareable between threads. Luckily,
+Handlebars is Send + Sync, so it can be used in web::Data. We call the
+web::Data::new() function and pass the Handlebars instance to it.   -------page 25

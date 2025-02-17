@@ -1,46 +1,47 @@
 use std::collections::HashMap;
+
 fn main() {
-    let mut v1 = Vec::new();  // Use 'mut' to make the vector mutable
-    v1.push(1);
-    v1.push(2);
-    println!("vector 1: {:?}", v1);
+    // let mut v1 = Vec::new();  // Use 'mut' to make the vector mutable
+    // v1.push(1);
+    // v1.push(2);
+    // println!("vector 1: {:?}", v1);
 
-    match v1.get(3){
-        Some(third)=>println!("third{}",third),
-        None=>println!("none found"),
-    }
+    // match v1.get(3){
+    //     Some(third)=>println!("third{}",third),
+    //     None=>println!("none found"),
+    // }
 
-    let mut v2: Vec<i32> = vec![1, 2, 3,4,4];
-    println!("vector 2: {:?}", v2);  // Use {:?} to print a vector
-    let third = &v2[3]; 
+//     let mut v2: Vec<i32> = vec![1, 2, 3,4,4];
+//     println!("vector 2: {:?}", v2);  // Use {:?} to print a vector
+//     let third = &v2[3]; 
 
-     println!("third: {}", third);
+//      println!("third: {}", third);
       
-     v2.push(6);
+//      v2.push(6);
 
-    match v2.get(20){
-        Some(third) => println!("third: {}", third),
-        None => println!("none found"),
-    }
-for i in &v2 { println!("{}", i); }
-
-
-enum Error {
-    Int(i32),
-    text(String),
-
-}
-let v3 = vec![
-Error::Int(10), //
-    Error::text(String::from("hello")),
-]    ;
+//     match v2.get(20){
+//         Some(third) => println!("third: {}", third),
+//         None => println!("none found"),
+//     }
+// for i in &v2 { println!("{}", i); }
 
 
- match &v3[1]{
-    Error::Int(i) => println!("{}", i),
-    _ => println!("not a integer"), //
+// enum Error {
+//     Int(i32),
+//     text(String),
 
- };
+// }
+// let v3 = vec![
+// Error::Int(10), //
+//     Error::text(String::from("hello")),
+// ]    ;
+
+
+//  match &v3[1]{
+//     Error::Int(i) => println!("{}", i),
+//     _ => println!("not a integer"), //
+
+//  };
 
 
 

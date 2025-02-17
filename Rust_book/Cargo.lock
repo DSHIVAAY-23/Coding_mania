@@ -11,6 +11,18 @@ name = "box_smartpointers"
 version = "0.1.0"
 
 [[package]]
+name = "concurrency"
+version = "0.1.0"
+
+[[package]]
+name = "enums"
+version = "0.1.0"
+
+[[package]]
+name = "error"
+version = "0.1.0"
+
+[[package]]
 name = "iterators"
 version = "0.1.0"
 
