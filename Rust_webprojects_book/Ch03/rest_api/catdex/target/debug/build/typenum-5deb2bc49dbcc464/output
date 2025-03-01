@@ -1,2 +1,0 @@
-cargo:rustc-env=TYPENUM_BUILD_CONSTS=/data/Coding_mania/Rust_webprojects_book/Ch03/rest_api/catdex/target/debug/build/typenum-5deb2bc49dbcc464/out/consts.rs
-cargo:rustc-env=TYPENUM_BUILD_OP=/data/Coding_mania/Rust_webprojects_book/Ch03/rest_api/catdex/target/debug/build/typenum-5deb2bc49dbcc464/out/op.rs
